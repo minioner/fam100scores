@@ -66,7 +66,5 @@ func processFile(path string) {
 			}
 		}
 		deleted++
-	} else {
-		log.Printf("skiping %s (age %f)", path, age.Hours()/24)
 	}
 }
